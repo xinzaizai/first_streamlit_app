@@ -39,7 +39,7 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # write your own comment - what does this do?
 streamlit.dataframe(fruityvice_normalized)
 
-import module from snowflake-connector-python
+import snowflake-connector-python as snowflake.connector
 
 
 
